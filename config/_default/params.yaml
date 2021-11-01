@@ -5,10 +5,10 @@
 
 # Appearance
 
-theme: minimal
+theme: Minimal
 day_night: true
-font: 'Native'
-font_size: L
+font: 'Classic'
+font_size: M
 
 # SEO
 
@@ -19,16 +19,16 @@ description: ''
 
 # Contact (edit or remove options as required)
 
-email: lsheng[AT]buaa[DOT]edu[DOT]cn
-phone: +86-15010365374
+email: lsheng[at]buaa[dot]edu[dot]cn
+# phone: +86-15010365374
 address:
-  street: 学院路37号
+  street: 曾宪梓科教楼东419室，北京航空航天大学，学院路37号
   city: 海淀区
   region: 北京
   postcode: '100191'
   country: 中国
   country_code: CN
-directions: 曾宪梓科教楼东419室
+directions: 
 
 # Site header
 
@@ -38,7 +38,7 @@ main_menu:
   show_logo: true
   show_language: false
   show_day_night: true
-  show_search: false
+  show_search: true
   highlight_active_link: true
 
 # Localization
@@ -58,26 +58,26 @@ privacy_pack: false
 edit_page:
   repo_url: ''
   content_dir: ''
-  repo_branch: main
+  repo_branch: ''
   editable:
     page: false
     post: false
     book: false
 show_related:
-  book: true
+  book: false
   page: false
-  post: true
-  project: true
-  publication: true
-  event: true
-reading_time: true
+  post: false
+  project: false
+  publication: false
+  event: false
+reading_time: false
 section_pager: false
-docs_section_pager: true
-sharing: true
+docs_section_pager: false
+sharing: false
 copyright_license:
   enable: false
   allow_derivatives: false
-  share_alike: true
+  share_alike: false
   allow_commercial: false
   notice: 'This work is licensed under {license}'
 abstract_length: 135
@@ -87,17 +87,17 @@ avatar:
   shape: circle
 publications:
   date_format: January 2006
-  citation_style: apa
+  citation_style: IEEE
 projects:
   post_view: 2
   publication_view: 2
   talk_view: 2
 breadcrumb:
   page_types:
-    book: true
+    book: false
 comments: 
   provider: ''
-  commentable:
+  commentable: 
     post: true
     book: true
     project: true
@@ -109,7 +109,7 @@ comments:
   commento:
     url: ''
 search:
-  provider: wowchemy
+  provider: ''
   algolia:
     app_id: ''
     api_key: ''
